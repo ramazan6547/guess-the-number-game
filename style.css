@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F9C5D5;
+}
+
+.container {
+    width: 30rem;
+    height: 40rem; 
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputdiv {
+    width: 20rem;
+    display: flex;
+    height: 4rem;
+    padding: 20px;
+}
+
+#check, #reset {
+    cursor: pointer;
+    margin-left: 1rem;
+    width: 6rem;
+    height: 2rem;
+    padding: 10px;
+}
+
+#check {
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+#reset {
+    background-color: blue;
+    color: white;
+    border: none;
+}
+
+input {
+    height: 2rem;
+    width: 8rem;
+    font-size: 15px;
+}
+
+#image {
+    width: 15rem;
+    height: 20rem;
+}
+
+#message {
+    margin-top: 2rem;
+}
+
+.democlass {
+    height: 2rem;
+}
